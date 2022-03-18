@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            background-color: black;
+            height: 80px;
+
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav .n {
+            margin-top: 15px;
+        }
+
+        nav div a {
+            font-size: 2em;
+            margin: auto;
+            padding: 22px 18px;
+            color: rgb(231, 225, 214);
+            text-decoration: none;
+            font-family: cursive;
+        }
+
+        nav div a:hover {
+            background-color: cyan;
+            border-radius: 3px;
+        }
+
+        nav #src {
+            position: relative;
+            left: 620px;
+            top: 26px;
+        }
+
+        nav input[placeholder] {
+            text-align: center;
+            font-size: large;
+            color: rgb(206, 23, 191);
+        }
+
+        nav div button {
+            font-size: large;
+            margin-left: 0%;
+            background-color: rgb(255, 0, 0);
+            /* box-shadow:inset -6px -4px 2px rgb(252, 2, 2) */
+        }
+
+        nav div button:hover {
+            background-color: rgb(204, 29, 6);
+        }
+
+        section h1 {
+            font-size: 2em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(143, 22, 224);
+        }
+
+        section .page {
+            border: 2px solid black;
+            height: 197px;
+            width: 600px;
+            background-color: magenta;
+            box-shadow: 4px 5px 2px black;
+            position: relative;
+            left: 50px;
+        }
+
+        section p {
+            font-size: 1em;
+            font-family: sans-serif;
+            color: papayawhip;
+        }
+  
+    
+        footer{
+          
+            position: relative;
+            top: 356px;
+            background: #000;
+            text-align: center;
+            color: bisque;
+        }
+        footer a{
+            
+            color: rgb(214, 13, 124);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="n"> <a href="sany.html" target="-main"> home </a></div>
+            <div class="n"> <a href="learntut40.html"> about</a></div>
+            <div class="n"> <a href=""> privacy </a></div>
+            <div class="n"> <a href=""> service </a></div>
+            <div id="src"> <input type="text" placeholder="search"> <button> search</button> </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1> CBSE Announced that paper of 2021-2022 </h1>
+            <div class="page">
+                <p> cbse announced that paper of 2020-2021 is going to cancel due to
+                    covid-19 flew is increasing it can effect the students so cbse thinking about paper cancellation
+                    due to the impact of covid-19 . and in some state the election are going to held
+                    this is also a major factor to cancel examination for paper
+            </div>
+            </p>
+        </section>
+        <hr>
+        <section>
+
+        </section>
+
+    </main>
+    <footer> copyright &copy; all reserved 2021 <a href="www.bageshwartech.blogspot.com">bageshwartech</a> </footer>
+</body>
+<script>
+</script>
+
+</html>
